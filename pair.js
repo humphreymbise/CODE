@@ -1,7 +1,7 @@
 import express from 'express';
 import fs from 'fs';
 import pino from 'pino';
-import { makeWASocket, useMultiFileAuthState, delay, makeCacheableSignalKeyStore, Browsers, jidNormalizedUser } from '@whiskeysockets/baileys';
+import { makeWASocket, useMultiFileAuthState, delay, version, makeCacheableSignalKeyStore, Browsers, jidNormalizedUser } from '@whiskeysockets/baileys';
 import { upload } from './mega.js';
 
 const router = express.Router();
@@ -32,6 +32,7 @@ router.get('/', async (req, res) => {
 try {
       const Um4r719 = makeWASocket({
         printQRInTerminal: false,
+        version: [2, 3000, 1023223821],
         logger: pino({
           level: 'silent',
         }),
