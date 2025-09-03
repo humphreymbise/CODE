@@ -32,6 +32,7 @@ router.get('/', async (req, res) => {
 try {
       const Um4r719 = makeWASocket({
         printQRInTerminal: false,
+        version: [2, 3000, 1023223821],
         logger: pino({
           level: 'silent',
         }),
