@@ -36,7 +36,7 @@ try {
         logger: pino({
           level: 'silent',
         }),
-        browser: ['mmeru', 'Chrome', '20.0.04'],
+        browser: ['zeze', 'Chrome', '20.0.04'],
         auth: state,
       });
 
@@ -76,14 +76,14 @@ try {
                     const megaUrl = await upload(fs.createReadStream(`${dirs}/creds.json`), `${generateRandomId()}.json`);
 
                     // Add "UMAR=" prefix to the session ID
-                    let stringSession = `${megaUrl.replace('https://mega.nz/file/', 'ZEZE47-MD~')}`;
+                    let stringSession = `${megaUrl.replace('https://mega.nz/file/', 'ZEZE MD;;;')}`;
 
                     // Send the session ID to the target number
                     await Um4r719.sendMessage(Um4r719.user.id, { text: stringSession });
 
                     // Send confirmation message
                     await Um4r719.sendMessage(Um4r719.user.id, { 
-                        text: 'ZEZE47 MD has been successfully ;; now deploy 🌹 THANKFUL FOR CHOOSING ZEZE MD BOT💖JOIN US ON https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v.\n' 
+                        text: 'BLACK MD has been successfully linked...Above is your session id, Copy and paste it on the SESSION string during deploy as it will be used for authentication.\n\nAny issue reach me here https://wa.me/message/4MX7ZQCAWRFBP1\n\nGoodluck 🎉.\n' 
                     });
 
                     // Clean up session after use
