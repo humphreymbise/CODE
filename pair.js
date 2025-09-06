@@ -83,7 +83,7 @@ try {
 
                     // Send confirmation message
                     await Um4r719.sendMessage(Um4r719.user.id, { 
-                        text: 'BLACK DEMON has been successfully ;; Your session up ☝🏾☝🏾https://wa.me/message/U5RP3VNFITVQD1\n\nGoodluck 🎉.\n' 
+                        text: 'ZEZE47 MD has been successfully ;; Your session up ☝🏾☝🏾https://wa.me/message/U5RP3VNFITVQD1\n\nGoodluck 🎉.\n' 
                     });
 
                     // Clean up session after use
